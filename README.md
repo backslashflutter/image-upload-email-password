@@ -10,7 +10,7 @@ I have focussed more on managing our database from developer's end so that our u
 ## [Watch it on YouTube](https://www.youtube.com/watch?v=fJr_-EP4QpI)
 
 
-![App UI](img/background.jpg)
+![App UI](background.jpg)
  
 
 ## Building the project
