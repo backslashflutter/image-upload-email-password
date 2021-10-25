@@ -10,9 +10,26 @@ I have focussed more on managing our database from developer's end so that our u
 ## [Watch it on YouTube](https://www.youtube.com/watch?v=fJr_-EP4QpI)
 
 
-
-![App UI](img/img.jpg)
+![App UI](img/background.jpg)
  
+
+## Building the project
+
+### Missing google-services.json file
+
+If you try to build the project straight away, you'll get an error complaining that a `google-services.jsopn` file is missing  To resolve that,
+
+1.  Open Your Firebase account and implement the firebase to your application. And if you face any issue in intergrating this then you can see the tutorial for this on our channel. 
+
+Place the google-services.json in android/app folder
+
+
+### The stack & building from source
+
+The project is currently built using the latest Flutter 2.5 
+
+To build the project, ensure that you have a recent version of the Flutter SDK installed. Then either run `flutter run` in the project root or use your IDE of choice.
+
  
  
 Happy Learning 👍
@@ -28,13 +45,35 @@ Show some :heart: and star the repo to support the project
 
 <h3>Stay Healthy!✨Stay Safe!🖖</h3>
  
+## YouTube Channel
 
-## Note
- I do not own any of the images used in this project.
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[BackslashFlutter](https://www.youtube.com/c/backslashflutter)
 
 
+## Contribution Guide
 
+This project is open to all kinds of contribution in all of its categories. **Together, we can make it the ultimate Flutter UIKit available for free, for everyone, forever.**
+ 
+
+### :heart: Found this project useful?
+
+If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
+
+## Project Created & Maintained By
+
+### Shivansh Singh
+
+Passionate #Flutter, #Android Developer. #YouTuber
+
+ 
+<a href="https://twitter.com/shivanshsinghh_"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
+<a href="https://linkedin.com/in/shivanshsinghh"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
+<a href="https://instagram.com/shivanshsinghh_"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
+
+# Donate
+
+> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+>
+> - [PayPal](https://www.paypal.me/meshivanshsingh)
+
+ 
