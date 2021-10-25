@@ -1,10 +1,14 @@
-# email_password_flutter_firebase
-Email and Password Authentication In Flutter &amp; Firebase in Flutter 2.2
+# image_upload_firebase_flutter
+Image Upload and Retireve Using Firebase And Flutter alongside, CloudFirestore and Firebase Storage. 
+
 
 # Overview
-This email and password authentication is implemented with many functionalities like, fluttertoast library, cloud firestore. In this tutorial, we have also implemented the Form validation for your email and password fields. So, if you want to see complete voice over of this tutorial you can watch my youtube video. 
+This git is a successor of our inital git for creating the email and password authentication. Now, in this git we have created a imageupload and retireval system so that the particular user can upload the image from their gallery and alaso after uploading that image can show that in the streambuilder screen. 
+I have focussed more on managing our database from developer's end so that our user don't face any issue.
 
-## [Watch it on YouTube](https://youtu.be/3DO6Th9A7mY)
+
+## [Watch it on YouTube](https://www.youtube.com/watch?v=fJr_-EP4QpI)
+
 
 
 ![App UI](img/img.jpg)
