@@ -20,21 +20,29 @@ class _ImageRetriveState extends State<ImageRetrive> {
             .doc(widget.userId)
             .collection("images")
             .snapshots(),
-        builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
-          if (!snapshot.hasData) {
-            return (const Center(child: Text("No Images Found")));
+        builder: (BuildContext context, AsyncSnapshot snapshot) {
+          if (snapshot.hasData) {
+            if (snapshot.data.docs.length != 0) {
+              return ListView.builder(
+                itemCount: snapshot.data!.docs.length,
+                itemBuilder: (BuildContext context, int index) {
+                  String url = snapshot.data!.docs[index]['downloadURL'];
+                  return Image.network(
+                    url,
+                    height: 300,
+                    fit: BoxFit.fitWidth,
+                  );
+                },
+              );
+            } else {
+              return Center(
+                child: Text("No images found"),
+              );
+            }
           } else {
-            return ListView.builder(
-              itemCount: snapshot.data!.docs.length,
-              itemBuilder: (BuildContext context, int index) {
-                String url = snapshot.data!.docs[index]['downloadURL'];
-                return Image.network(
-                  url,
-                  height: 300,
-                  fit: BoxFit.fitWidth,
-                );
-              },
-            );
+            return (const Center(
+              child: CircularProgressIndicator(),
+            ));
           }
         },
       ),
